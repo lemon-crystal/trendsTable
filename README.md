@@ -41,3 +41,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 > 7.pagination:分页相关数据（方法）
 > 8.selection-change:当列表有全选或选择时 需要此方法
 ### 相关的扩展功能 或者table的其他事件方法可参照elementUI中的方法自行添加
+
+# 此组件已在npm发布，可在npm搜索 trendstable 下载使用
