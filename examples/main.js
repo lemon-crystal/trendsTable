@@ -5,8 +5,13 @@ import store from "./store";
 
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
-
 Vue.use(ElementUI);
+
+// 导入组件库
+import trendsTable from './../packages/index'
+// 注册组件库
+Vue.use(trendsTable)
+
 Vue.config.productionTip = false;
 
 new Vue({

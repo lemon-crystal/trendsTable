@@ -16,6 +16,12 @@ const routes = [
     component: () =>
       import("../views/onrenewal")
   },
+  {
+    path: "/selectTree",
+    name: "selectTree",
+    component: () =>
+      import("../views/selectTree")
+  },
 ];
 
 const router = new VueRouter({

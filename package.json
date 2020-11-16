@@ -1,11 +1,15 @@
 {
   "name": "trendstable",
-  "version": "0.1.0",
-  "private": true,
+  "version": "11.12.01",
+  "description":"基于vue+elementUI的动态表格列显示隐藏，分页，支持表格序号多选",
+  "main":"lib/trendstable.umd.min.js",
+  "keyword":"trendstable el-table vue elementUI",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib": "vue-cli-service build --target lib --name trendstable --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -45,7 +49,6 @@
   },
   "browserslist": [
     "> 1%",
-    "last 2 versions",
-    "not dead"
+    "last 2 versions"
   ]
 }
